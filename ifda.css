@@ -1,0 +1,51 @@
+.neeraj {
+    width: 100%;
+    height: 500px;
+    float: right;
+    background-size: 100% 100%;
+    animation-name: example;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {background-image: url("image/sonali.webp");}
+    25%  {background-image: url("image/urvasi.webp");}
+    50%  {background-image: url("image/image-collapse-first.webp");}
+    100% {background-image: url("image/nsdc-approved-skills.webp");}
+  }
+  @media only screen and (max-width: 400px) {
+    .neeraj {
+       width: 100%;
+       height: 250px;
+       float: right;
+       background-size: 100% 100%;
+       animation-name: example;
+       animation-duration: 40s;
+       animation-iteration-count: infinite;
+ 
+      
+    }
+    .card-text-nn{
+      display: none;
+    }
+    .join img {
+      width: 250px;
+    }
+    form input,textarea{
+      width: 300px !important;
+    }
+   
+    
+    
+  }
+  @media only screen and (max-width: 768px){
+    form input,textarea{
+      width: 200px !important;
+    }
+   
+  } 
+
+
+  
+  
